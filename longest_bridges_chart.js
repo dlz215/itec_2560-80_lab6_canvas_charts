@@ -1,3 +1,8 @@
+// It isn't going to make any difference to how your code works, but typically do the imports at the start
+// Import list of bridge data from bridges.js file
+import {bridges} from "./bridges.js";  
+
+
 let chartCanvas = document.querySelector('#bridges-chart')
 let ctx = chartCanvas.getContext('2d')
 
@@ -17,8 +22,6 @@ let bridgesChart = new Chart(ctx, {
     options: {}
 })
 
-// Import list of bridge data from bridges.js file
-import {bridges} from "./bridges";
 
 // For each bridge object in the bridges array, add the bridge span to the chart data array and add
 // the bridge name to the chart labels array.
