@@ -1,5 +1,5 @@
 const bridges =  [
-    {"name": "Verrazano-Narrows Bridge", "cityState": "New York, NY", "meters": " 1298.4",
+    {"name": "Verrazano-Narrows Bridge", "cityState": "New York, NY", "meters": "1298.4",
         "coordinates": [40.6066, -74.0447] },
     {"name": "Golden Gate Bridge", "cityState": "San Francisco and Marin, CA", "meters": " 1280.2",
         "coordinates": [37.8199, -122.4783] },

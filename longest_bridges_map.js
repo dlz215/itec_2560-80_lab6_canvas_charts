@@ -37,7 +37,9 @@ let longestBridgeSpan = 0
 bridges.forEach(function(bridge) {
     if (bridge.meters > longestBridgeSpan) {
         longestBridgeSpan = bridge.meters
+        console.log(longestBridgeSpan)
         longestBridgeName = bridge.name
+        console.log(longestBridgeName)
     }
 })
 
